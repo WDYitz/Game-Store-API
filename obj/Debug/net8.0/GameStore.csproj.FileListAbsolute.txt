@@ -23,3 +23,4 @@ e:\Development Workspace\GameStore\obj\Debug\net8.0\refint\GameStore.dll
 e:\Development Workspace\GameStore\obj\Debug\net8.0\GameStore.pdb
 E:\Development Workspace\GameStore\obj\Debug\net8.0\GameStore.genruntimeconfig.cache
 E:\Development Workspace\GameStore\obj\Debug\net8.0\ref\GameStore.dll
+e:\Development Workspace\GameStore\obj\Debug\net8.0\GameStore.sourcelink.json
