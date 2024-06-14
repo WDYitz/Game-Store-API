@@ -32,7 +32,7 @@ namespace GameStore.Endpoints
 
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
-      var group = app.MapGroup("games");
+      var group = app.MapGroup("games").WithParameterValidation();
 
       // GET /games
       group.MapGet("/", () => games);
@@ -48,13 +48,13 @@ namespace GameStore.Endpoints
       // POST /games
       group.MapPost("/", (CreateGameDto newGame) =>
       {
-          GameDto game = new(
-            games.Count + 1,
-            newGame.Title,
-            newGame.Genre,
-            newGame.Price,
-            newGame.ReleaseDate
-          );
+        GameDto game = new(
+          games.Count + 1,
+          newGame.Title,
+          newGame.Genre,
+          newGame.Price,
+          newGame.ReleaseDate
+        );
         games.Add(game);
 
         return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);
