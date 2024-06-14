@@ -7,5 +7,9 @@ namespace GameStore.Entities
 
     public int GenreId { get; set; }
     public required Genre Genre { get; set; }
+
+    public decimal Price { get; set; }
+
+    public DateOnly ReleaseDate { get; set; }
   }
 }

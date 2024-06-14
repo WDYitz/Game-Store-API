@@ -125,3 +125,15 @@ E:\Development Workspace\GameStore\bin\Debug\net8.0\runtimes\win-arm\native\e_sq
 E:\Development Workspace\GameStore\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 E:\Development Workspace\GameStore\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 E:\Development Workspace\GameStore\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\System.Text.Json.dll
+E:\Development Workspace\GameStore\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll

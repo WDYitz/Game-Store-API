@@ -11,4 +11,6 @@ var app = builder.Build();
 
 app.InMemoryMapGamesEndpoints();
 
+app.MigrateDb();
+
 app.Run();
