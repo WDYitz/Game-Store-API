@@ -1,8 +1,8 @@
 using GameStore.Dtos;
 
-namespace GameStore.Endpoints
+namespace GameStore.Endpoints.InMemory
 {
-  public static class GamesEnpoints
+  public static class InMemoryGamesEndpoints
   {
     const string GetGameEndpointName = "GetNameById";
 
@@ -30,7 +30,7 @@ namespace GameStore.Endpoints
       ),
     ];
 
-    public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
+    public static RouteGroupBuilder InMemoryMapGamesEndpoints(this WebApplication app)
     {
       var group = app.MapGroup("games").WithParameterValidation();
 
