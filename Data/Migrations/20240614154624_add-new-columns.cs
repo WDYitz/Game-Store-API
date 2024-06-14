@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GameStore.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class addnewcolomns : Migration
+    public partial class AddNewColumns : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

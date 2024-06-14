@@ -12,7 +12,7 @@ namespace GameStore.Data.Migrations
 {
     [DbContext(typeof(GameStoreContext))]
     [Migration("20240614154624_add-new-colomns")]
-    partial class addnewcolomns
+    partial class AddNewColumns
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
